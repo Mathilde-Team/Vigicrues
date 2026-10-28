@@ -148,7 +148,7 @@ qui l'utilise déjà : les deux peuvent être installées ensemble.
   « en l'état », et l'OFB et le BRGM peuvent bloquer une adresse IP qui
   solliciterait l'infrastructure de façon excessive
   ([droits d'usage des API](https://assistance.brgm.fr/hubeau/quels-sont-droits-dusage-apis)).
-  L'intégration interroge une station à la fois, à intervalle régulier.
+  L'intégration interroge une station toutes les 15 minutes.
 - **Code** : licence MIT (intégration Home Assistant, exception SOCLE §1), voir
   [`LICENSE`](LICENSE).
 
