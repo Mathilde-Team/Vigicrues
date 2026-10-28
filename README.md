@@ -130,6 +130,28 @@ qui l'utilise déjà : les deux peuvent être installées ensemble.
 - Données produites par le service Vigicrues (SCHAPI) via la plateforme
   PHyC.
 
+## Données et licences
+
+- **Licence des données** : les données de Hub'Eau sont réutilisables sous la
+  [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence),
+  ce qui inclut un usage commercial. La seule condition est de citer l'auteur des
+  données ([conditions générales d'utilisation de Hub'Eau](https://hubeau.eaufrance.fr/page/conditions-generales),
+  § 5.1.3).
+- **Attribution** : « Données : Service Central Vigicrues (SCV, ex-SCHAPI),
+  plate-forme HYDRO Centrale (PHyC), réseau de mesure des DREAL et autres
+  producteurs, diffusées par Hub'Eau (OFB / BRGM) — Licence Ouverte Etalab 2.0 »
+  ([origine des données de l'API Hydrométrie](https://hubeau.eaufrance.fr/page/api-hydrometrie)).
+- **Nature des données** : ce sont des données brutes quasi temps réel, non
+  validées, dont les producteurs restent seuls responsables. Elles ne
+  remplacent pas la vigilance crues officielle de [Vigicrues](https://www.vigicrues.gouv.fr).
+- **Usage de l'API** : l'accès est libre et sans clé. L'API est fournie
+  « en l'état », et l'OFB et le BRGM peuvent bloquer une adresse IP qui
+  solliciterait l'infrastructure de façon excessive
+  ([droits d'usage des API](https://assistance.brgm.fr/hubeau/quels-sont-droits-dusage-apis)).
+  L'intégration interroge une station toutes les 15 minutes.
+- **Code** : licence MIT (intégration Home Assistant, exception SOCLE §1), voir
+  [`LICENSE`](LICENSE).
+
 ## Développement
 
 Socle qualité Mathilde-Team : CI (ruff, yamllint, pytest, hassfest, HACS),
