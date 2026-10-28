@@ -1,5 +1,9 @@
 # Journal des versions
 
+## [Non publié]
+
+- README : nouvelle section « Données et licences » (Licence Ouverte Etalab 2.0 des données Hub'Eau, attribution au Service Central Vigicrues et aux producteurs, conditions d'usage de l'API) (#31).
+
 ## [0.3.1] — 22/10/2026
 
 - Réponses JSON invalides de Hub'Eau désormais journalisées.
