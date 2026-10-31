@@ -2,6 +2,10 @@
 
 ## [Non publié]
 
+- CI et publication : repli GitHub autorisé, publication manuelle sur un tag
+  déjà livré dans main, vérification d’ascendance et archives du tag exact.
+
+
 - README : nouvelle section « Données et licences » (Licence Ouverte Etalab 2.0 des données Hub'Eau, attribution au Service Central Vigicrues et aux producteurs, conditions d'usage de l'API) (#31).
 
 ## [0.3.1] — 22/10/2026
